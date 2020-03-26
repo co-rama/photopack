@@ -1,2 +1,2 @@
-# photopack
+# Photopack
 PhotoPack Collection
