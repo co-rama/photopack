@@ -2,10 +2,9 @@
   "name": "photopack",
   "version": "1.0.0",
   "description": "PhotoPack Collection",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "start": "node index",
-    "dev": "nodemon index"
+    "start": "nodemon app.js"
   },
   "repository": {
     "type": "git",
