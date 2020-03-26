@@ -1,0 +1,23 @@
+{
+  "name": "photopack",
+  "version": "1.0.0",
+  "description": "PhotoPack Collection",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/co-rama/photopack.git"
+  },
+  "author": "Corama Yunus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/co-rama/photopack/issues"
+  },
+  "homepage": "https://github.com/co-rama/photopack#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.2"
+  }
+}
