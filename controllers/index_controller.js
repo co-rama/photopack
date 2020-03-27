@@ -1,5 +1,5 @@
 exports.gethome = (req, res) => {
-    res.send('Hit the home page');
+    res.render('index');
     console.log('Homepage was hitted');
 }
 
