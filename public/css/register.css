@@ -1,0 +1,52 @@
+.container-1{
+    display: grid;
+    border: solid black;
+    grid-template-columns: 35% 65%;
+    grid-auto-rows: minmax(640px, auto);
+}
+
+.container-1 div {
+    border: 1px #ccc solid;
+    padding: 10px;
+}
+
+/* REGISTER CONTENTS */
+#register-contents{
+    height: 100%;
+    padding: 35px 60px;
+}
+
+#form-register{
+    /* border: solid black; */
+}
+
+#form-register #form-legend{
+    font-size: x-large;
+    font-weight: bold;
+}
+
+#form-register input[type=text], input[type=email]{
+    width: 100%;
+    margin: 8px 0;
+    height: 40px;
+    padding: 10px;
+}
+#form-caption{  
+    width: 100%;
+    margin: 12px 5px;
+    font-size: x-small;
+}
+.form-check-label{
+    width: 100%;
+    margin: 12px 0;
+}
+#form-register button{
+    width: 100%;
+    margin-top: 15px;
+}
+/*COVER CONTENTS */
+#cover{
+    height: 100%;
+    color: #ffffff;
+    background-color: black;
+}

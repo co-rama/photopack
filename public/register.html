@@ -6,13 +6,29 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/register.css">
-    <title>Register!</title>
+    <title>Register! | PC</title>
 </head>
 <body>
     <div class="container-1">
-        <div id="logo">
-            <img src="" alt="logo">
-            <h3 id="logo-header">PhotoPack</h3>
+        <div id="register-contents">
+            <img src="" alt="logo" id="logo">
+            <h3 id="logo-header">PhotoPac</h3>
+            <form action="/" method="POST" id="form-register">
+                <legend id="form-legend">Create an account for free with US</legend>
+                <input type="text" name="username" placeholder="Username" id="username">
+                <input type="email" name="email" placeholder="E-mail address" id="email">
+                <p id="form-caption">By signing up you agree to receive our newsletter</p>
+                <label class="form-check-label">
+                    <input type="checkbox" id="register-checkbox"> 
+                    I agree to the <a href="">Terms of Service</a> and 
+                    <a href="">Privacy Policy</a> 
+                  </label>
+                <button type="submit" class="btn btn-primary">Register</button>
+            </form>
+        </div>
+        <div id="cover">
+            <h3 id="cover-head">JOIN PHOTOPAC</h3>
+            <p id="cover-content">Join the leading PhotoPac collection in Tanzania</p>
         </div>
     </div>
 </body>
