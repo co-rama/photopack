@@ -1,23 +1,26 @@
 .container-1{
     display: grid;
-    border: solid black;
+    /* border: solid black; */
     grid-template-columns: 35% 65%;
     grid-auto-rows: minmax(640px, auto);
 }
 
-.container-1 div {
+.container-1 #register-contents, #cover{
     border: 1px #ccc solid;
     padding: 10px;
 }
 
 /* REGISTER CONTENTS */
+#logo{
+    padding: 40px 60px;
+    padding-bottom: 0;
+}
 #register-contents{
     height: 100%;
-    padding: 35px 60px;
 }
 
 #form-register{
-    /* border: solid black; */
+    padding: 40px 60px;
 }
 
 #form-register #form-legend{
@@ -49,4 +52,18 @@
     height: 100%;
     color: #ffffff;
     background-color: black;
+    position: relative;
+}
+
+#cover #cover-contents{
+    position: absolute;
+    top: 30%;   
+    border: orangered solid 0.1px;
+    width: 98%;
+    margin: 0;
+    text-align: center;
+}
+
+#cover-contents h3{
+    color: gray;
 }

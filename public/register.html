@@ -11,15 +11,17 @@
 <body>
     <div class="container-1">
         <div id="register-contents">
-            <img src="" alt="logo" id="logo">
-            <h3 id="logo-header">PhotoPac</h3>
+            <div id="logo">
+                <img src="" alt="logo">
+                <h3>PhotoPac</h3>
+            </div>
             <form action="/" method="POST" id="form-register">
                 <legend id="form-legend">Create an account for free with US</legend>
-                <input type="text" name="username" placeholder="Username" id="username">
-                <input type="email" name="email" placeholder="E-mail address" id="email">
+                <input type="text" name="username" placeholder="Username">
+                <input type="email" name="email" placeholder="E-mail address">
                 <p id="form-caption">By signing up you agree to receive our newsletter</p>
                 <label class="form-check-label">
-                    <input type="checkbox" id="register-checkbox"> 
+                    <input type="checkbox" name=""> 
                     I agree to the <a href="">Terms of Service</a> and 
                     <a href="">Privacy Policy</a> 
                   </label>
@@ -27,8 +29,10 @@
             </form>
         </div>
         <div id="cover">
-            <h3 id="cover-head">JOIN PHOTOPAC</h3>
-            <p id="cover-content">Join the leading PhotoPac collection in Tanzania</p>
+            <div id="cover-contents">
+                <h3>JOIN PHOTOPAC</h3>
+                <p>Join the leading PhotoPac collection in Tanzania</p>
+            </div>
         </div>
     </div>
 </body>
