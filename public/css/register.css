@@ -6,7 +6,7 @@
 }
 
 .container-1 #register-contents, #cover{
-    border: 1px #ccc solid;
+    /* border: 1px #ccc solid; */
     padding: 10px;
 }
 
@@ -58,7 +58,6 @@
 #cover #cover-contents{
     position: absolute;
     top: 30%;   
-    border: orangered solid 0.1px;
     width: 98%;
     margin: 0;
     text-align: center;
