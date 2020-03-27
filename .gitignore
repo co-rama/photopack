@@ -9,3 +9,6 @@
 
 #Package JSON
 *package-lock.*
+
+#Ignore env
+*.env
