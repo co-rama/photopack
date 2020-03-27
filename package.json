@@ -17,7 +17,10 @@
   },
   "homepage": "https://github.com/co-rama/photopack#readme",
   "dependencies": {
+    "ejs": "^3.0.1",
     "express": "^4.17.1",
+    "joi": "^14.3.1",
+    "mongoose": "^5.9.6",
     "nodemon": "^2.0.2"
   }
 }
