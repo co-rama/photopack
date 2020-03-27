@@ -5,6 +5,9 @@ const app = express();
 
 // Set static files
 app.use(express.static(path.join(__dirname, 'public')));
+// View engine setup
+app.set('views', path.join(__dirname, 'views'));
+app.set('view engine', 'ejs');
 
 // Middlewares
 app.use(express.urlencoded({extended: false}));
