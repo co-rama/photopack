@@ -20,7 +20,7 @@ mongoose.connect(process.env.DB_CONNECTION, { useNewUrlParser: true }, (err) =>{
     if(err){
         console.error(err);
     }else{
-        console.log('Connected to the database server')
+        console.log('Connected to The Mongoose DB')
     }
 })
 
