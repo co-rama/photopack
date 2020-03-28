@@ -6,7 +6,8 @@ let registerPage = require('../controllers/register_controller');
 router.get('/register', registerPage.getRegister);
 
 // Post Register
-router.post('/', registerPage.getRegisterContents);
+router.post('/', registerPage.postRegister);
+
 
 
 module.exports = router;
