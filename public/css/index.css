@@ -1,0 +1,70 @@
+.section-1{
+    display: grid;
+    border: solid white;
+    grid-auto-rows: minmax(auto, auto);
+    background-color: #232223;
+    color: #ffffff;
+    background-image: url('https://images.pexels.com/photos/904276/pexels-photo-904276.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=1280&w=853');
+    background-repeat: repeat;
+    /* background-position: center; */
+    background-size: cover;
+    /* opacity: 0.9; */
+}
+
+/* STYLE FOR THE NAVIGATIO SECTION */
+.section-1 #nav-bar{
+    position: -webkit-sticky;
+    position: sticky;
+    align-self: start;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#nav-left, #nav-right{
+    margin: 0;
+    padding: 0;
+}
+#nav-left li{
+    float: left;
+    padding: 10px;
+    margin: 10px 5px;
+    border: solid white 0.5px;
+
+}
+#nav-right li{
+    float: right;
+    padding: 10px;
+    margin: 10px 5px;
+    border: solid white 0.5px;
+}
+
+/* STYLE FOR THE FORM SECTION */
+.section-1 #form-search{
+    /* border: blueviolet solid; */
+    height: 350px;
+    position: relative;
+    text-align: center;
+    align-items: center;
+}
+
+#form-search form{
+    position: relative;
+    top: 40%;
+    /* width: fit-content; */
+    /* border: black solid; */
+    padding: 10px;
+}
+
+form legend{
+    font-size: x-large;   
+}
+
+form input[type=text]{
+    background:transparent;
+    width: 50%;
+    margin: 8px 0;
+    height: 55px;
+    padding: 10px;
+    border: solid white 0.5px;
+    border-radius: 5px;
+}
